@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_discover"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Discover" />
+        <item
+            android:id="@+id/nav_library"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Library" />
+        <item
+            android:id="@+id/nav_cookbook"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Cookbook" />
+        <item
+            android:id="@+id/nav_grocery_list"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Grocery List" />
+    </group>
+
+    <item android:title="Logistics">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Log out" />
+        </menu>
+    </item>
+
+</menu>

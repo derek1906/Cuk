@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/step_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Step:"
+        android:textColor="@color/abc_primary_text_material_light"
+        android:textSize="@dimen/abc_text_size_medium_material" />
+
+    <TextView
+        android:id="@+id/instruction"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/step_number"
+        android:paddingLeft="10dp"
+        android:text="Lorem Ipsum"
+        android:textColor="@color/abc_primary_text_material_light"
+        android:textSize="@dimen/abc_text_size_medium_material" />
+</RelativeLayout>
